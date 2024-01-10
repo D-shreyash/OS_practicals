@@ -1,0 +1,43 @@
+administrator@administrator:~/ASS/ASS5$ gcc sjf_premptive.c 
+administrator@administrator:~/ASS/ASS5$ ./a.out
+Enter total number of processes: 6
+
+Enter Process 0 Arrival Time: 0
+
+Enter Process 1 Arrival Time: 1
+
+Enter Process 2 Arrival Time: 2
+
+Enter Process 3 Arrival Time: 3
+
+Enter Process 4 Arrival Time: 4
+
+Enter Process 5 Arrival Time: 5
+
+Enter Process 0 Burst Time: 8
+
+Enter Process 1 Burst Time: 4
+
+Enter Process 2 Burst Time: 2
+
+Enter Process 3 Burst Time: 1
+
+Enter Process 4 Burst Time: 3
+
+Enter Process 5 Burst Time: 2
+
+Process No.	AT	CPU Burst Time	CT	TAT	WT	RT
+0		0	8		20	20	12	0
+1		1	4		10	9	5	0
+2		2	2		4	2	0	0
+3		3	1		5	2	1	1
+4		4	3		13	9	6	6
+5		5	2		7	2	0	0
+
+
+Average Turn Around time= 7.333333 
+Average Waiting Time= 4.000000 
+Average Response Time= 1.166667 
+Throughput= 0.300000
+administrator@administrator:~/ASS/ASS5$ 
+

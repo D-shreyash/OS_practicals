@@ -1,0 +1,30 @@
+administrator@administrator:~/YDF_ASS/ASS2_PARTA$ ./a.out
+
+	 Enter the number of elements: 5
+
+	 Enter the elements to be sorted : 
+
+	 Enter the 1 element : 	4
+
+	 Enter the 2 element : 	2
+
+	 Enter the 3 element : 	5
+
+	 Enter the 4 element : 	22
+
+	 Enter the 5 element : 	55
+
+-----Inside parent-----
+
+parent id 21121
+	after applying quicksort parent
+	2		4		5		22		55	
+Child id 21123
+administrator@administrator:~/YDF_ASS/ASS2_PARTA$ parent id 21121
+-----Inside child-----
+
+Child id 21123
+parent id 1658
+	after applying merge child
+2	4	5	22	55	
+

@@ -1,0 +1,44 @@
+administrator@administrator:~/ASS/ASS5$ ./a.out
+Enter total number of processes: 6
+
+Enter Process 0 Arrival Time: 0
+
+Enter Process 1 Arrival Time: 1
+
+Enter Process 2 Arrival Time: 2
+
+Enter Process 3 Arrival Time: 3
+
+Enter Process 4 Arrival Time: 4
+
+Enter Process 5 Arrival Time: 6
+
+Enter Process 0 Burst Time: 5
+
+Enter Process 1 Burst Time: 6
+
+Enter Process 2 Burst Time: 3
+
+Enter Process 3 Burst Time: 1
+
+Enter Process 4 Burst Time: 5
+
+Enter Process 5 Burst Time: 4
+
+Enter time quanta: 4
+
+Process No.	AT	CPU Burst Time	Start Time	CT	TAT	WT	RT
+0		0	5		0		17	17	12	0
+1		1	6		4		23	22	16	3
+2		2	3		8		11	9	6	6
+3		3	1		11		12	9	8	8
+4		4	5		12		24	20	15	8
+5		6	4		17		21	15	11	11
+
+
+Average Turn Around time= 15.33
+Average Waiting Time= 11.33
+Average Response Time= 6.00
+Throughput= 0.25
+administrator@administrator:~/ASS/ASS5$ ^C
+

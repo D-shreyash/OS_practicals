@@ -1,0 +1,26 @@
+administrator@administrator:~/ASS/ASS5$ ./a.out
+
+ Enter the no. of pages:
+14
+
+ Enter the reference string(different page numbers) :
+7 0 1 2 0 3 0 4 2 3 0 3 2 3
+
+ Enter the no. of frames you want to give to the process :4
+
+****The Contents inside the Frame array at different time:****
+7 -1 -1 -1 
+7 0 -1 -1 
+7 0 1 -1 
+7 0 1 2 
+3 0 1 2 
+3 0 4 2 
+
+Total No. of Page Faults = 6
+
+Page Fault ratio = 0.43
+
+Page Hit Ratio = 0.57
+(base) administrator@administrator:~/ASS/ASS5$ ^C
+(base) administrator@administrator:~/ASS/ASS5$ 
+
